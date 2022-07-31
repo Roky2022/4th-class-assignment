@@ -1,0 +1,171 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font font-family: sans-serif;
+	font size: 14px;
+	line-height: 24px;
+
+
+}
+h1, h2, h3, h4, h5, h6{
+	font font-family: serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*.container{
+	width: 1140px;
+	margin: 0px auto;
+}*/
+
+/* this is commetns */
+
+.header{
+	background: rgb(0, 100, 0);
+	text-align: center;
+	
+}
+.menu-bar{
+	background-color: rgb(0, 100, 0);
+	text-align: center;
+}
+.menu-bar ul{
+	display:inline-flex;
+	list-style:none;
+	color: #fff;
+}
+.menu-bar ul li{
+	width: 100px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.active,.menu-bar ul li:hover{
+	background: green;
+	border-radius: 3px;
+}
+.Sub-menu-1{
+	display: none;
+}
+.menu-bar ul li:hover  .Sub-menu-1{
+	display: block;
+	position: absolute;
+	background: rgb(0, 100, 0);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+.menu-bar ul li:hover  .Sub-menu-1 ul{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover  .Sub-menu-1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover  .Sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+.menu-bar ul li:hover  .Sub-menu-1 ul li a:hover{
+	color: black;
+}
+.fa-angle-right{
+	float: right;
+}
+.Sub-menu-2{
+	display: none;
+}
+.hover-me:hover .Sub-menu-2{
+	position: absolute;
+	display: block;
+	margin-top: -40px;
+	margin-left: 140px;
+	background: rgb(0, 100, 0);
+}
+.banner{
+	width: 100%;
+	padding: 0px 0px;
+	float: left;
+	height: 500px;
+    background: white;
+}
+.banner .box-1{
+	width: 50%;
+	height: 500px;
+	float: left;	
+}
+.banner .box-1 h1{
+	font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 50px 40px 10px;
+	color: blue;
+}
+.banner .box-1 p{
+	font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 50px 40px 10px;
+}
+
+.banner .box-2{
+	width: 50%;
+	height: 500px;
+	float: left;
+	
+}
+.img-fluid{
+	width: 100%;
+}
+.sevice{
+	width: 100%;
+	float: left;
+	height: 400px;
+	background: white;
+}
+.sevice .box-3{
+	width: 33.33%;
+	height: 400px;
+	float: left;
+	background: navy;
+}
+.sevice .box-4{
+	width: 33.33%;
+	height: 400px;
+	float: left;
+	background: black;
+}
+.sevice .box-5{
+	width: 33.33%;
+	height: 400px;
+	float: left;
+	background: yellowgreen;
+}
+
+
+.footer{
+	width: 100%;
+	height: 100px;
+	background: green;
+	float: left;
+}
+.footer-bar{
+	text-align: center;
+}
+
+.footer-bar h1{
+	font-size: 20px;
+    line-height: 30px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 35px 20px 10px;
+    color: white;
+}
